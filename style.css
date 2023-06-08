@@ -1,6 +1,30 @@
-.main-banner{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.main-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services {
+    padding: 50px 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-self: flex-start;
+}
+
+.card-img-top {
+    max-width: 150px;
+    height: auto;
+}
+
+.card-link {
+    color: #eea60a;
+    text-decoration: none;
+}
+
+.card {
+    border: 0;
 }
