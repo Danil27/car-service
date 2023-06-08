@@ -24,7 +24,57 @@
     color: #eea60a;
     text-decoration: none;
 }
+.service-img{
+    height: 150px;
+}
 
 .card {
     border: 0;
+}
+.services-list-price{
+    float: right;
+}
+
+.services-list{
+    padding: 0 300px;
+}
+.services-list ul{
+    padding-top: 50px;
+}
+
+.list-group-item.active{
+    color: var(--bs-list-group-color);
+    background-color: #eea60a;
+}
+
+.about-cards{
+    padding: 50px 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-self: flex-start;
+}
+.about-cards .card{
+    padding-bottom: 20px;
+}
+
+.contacts{
+    width: 500px;
+    margin: 100px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.contacts-home{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.main{
+    margin: 0 100px;
+    display: flex;
+    flex-direction: row;
 }
