@@ -84,14 +84,15 @@
     display: flex;
     flex-direction: column;
 }
-.services-main-img{
+
+.services-main-img {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.services-main-img img{
+.services-main-img img {
     margin-top: 30px;
     max-width: 1200px;
 }
@@ -106,8 +107,19 @@
     margin-left: 50px;
 }
 
-
-.feedback{
+.feedback {
     margin: 30px auto;
     max-width: 600px;
+}
+
+footer {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0 350px;
+    color: black;
+}
+
+.navbar-header {
+    margin: 0 auto;
+    max-width: 1400px;
 }
